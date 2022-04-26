@@ -1,0 +1,23 @@
+.intro {
+  width: 82vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: 93vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 90vw;
+    margin: auto;
+  }
+}

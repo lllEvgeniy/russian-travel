@@ -1,0 +1,32 @@
+.place {
+  padding-top: 92px;
+  max-width: 82vw;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "title website"
+    "image paragraph-top"
+    "image paragraph-bottom";
+  gap: 4vw 3.3vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .place {
+    max-width: 93vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 95vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: none;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+}

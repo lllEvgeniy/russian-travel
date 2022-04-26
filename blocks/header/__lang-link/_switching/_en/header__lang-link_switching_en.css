@@ -1,0 +1,14 @@
+.header__lang-link_switching_en {
+  margin-left: 18px;
+}
+
+.header__lang-link_switching_en:hover {
+  border-bottom: 3px solid #fff;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link_switching_en:hover {
+    border-bottom: 2px solid;
+  }
+}

@@ -1,0 +1,12 @@
+.place__website {
+  align-self: end;
+  grid-area: website;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    align-self: flex-start;
+    margin-left: 16px;
+    padding-top: 16px;
+  }
+}
