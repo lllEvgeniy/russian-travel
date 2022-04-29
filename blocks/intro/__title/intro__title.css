@@ -1,22 +1,23 @@
 .intro__title {
   padding-top: 92px;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro__title {
     padding-top: 88px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     padding-top: 64px;
     font-size: 32px;
     line-height: 35px;
+    max-width: 240px;
   }
 }

@@ -1,15 +1,27 @@
 .footer {
-  width: 93vw;
+  max-width: 1184px;
   margin: auto;
+  padding: 92px 0 24px 0;
   display: flex;
   justify-content: space-between;
-  padding: 92px 0 24px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .footer {
-    flex-direction: column;
-    width: 95vw;
+    max-width: 89vw;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 92vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: 95vw;
     padding: 64px 0 24px 0;
+    flex-direction: column;
   }
 }

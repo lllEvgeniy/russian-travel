@@ -1,0 +1,9 @@
+.header__lang-link_active {
+  border-bottom: 3px solid #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link_active {
+    border-bottom: 2px solid;
+  }
+}

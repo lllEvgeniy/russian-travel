@@ -1,15 +1,28 @@
 .header {
-    padding-top: 28px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 93vw;
-    height: 52px;
-  }
+  padding-top: 28px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1184px;
+}
 
-  @media screen and (max-width: 768px) {
-    .header {
-      width: 90vw;
-    }
+@media screen and (max-width: 1279px) {
+  .header {
+    max-width: 90.6vw;
   }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    align-items: center;
+    max-width: 91.6vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: 87vw;
+    padding-top: 16px;
+  }
+}

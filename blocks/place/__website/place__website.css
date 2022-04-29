@@ -3,10 +3,10 @@
   grid-area: website;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__website {
     align-self: flex-start;
     margin-left: 16px;
-    padding-top: 16px;
+    padding-top: 32px;
   }
 }

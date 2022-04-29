@@ -2,29 +2,30 @@
   max-width: 460px;
   grid-area: title;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .place__title {
-    font-size: 42px;
-    line-height: 46px;
-    width: 329px;
+    max-width: 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+  .place__title {
+    max-width: 330px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__title {
     margin-left: 16px;
   }
 }
