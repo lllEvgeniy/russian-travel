@@ -1,0 +1,18 @@
+.video__img {
+  position: relative;
+  z-index: 3;
+  max-width: 41px;
+  margin: 0 0 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .video__img {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__img {
+    margin-left: 16px;
+  }
+}

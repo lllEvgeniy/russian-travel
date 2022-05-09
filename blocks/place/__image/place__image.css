@@ -18,8 +18,8 @@
 
 @media screen and (max-width: 767px) {
   .place__image {
+    margin-bottom: 29px;
     max-width: 100%;
     margin-top: 32px;
-    margin-bottom: 37px;
   }
 }

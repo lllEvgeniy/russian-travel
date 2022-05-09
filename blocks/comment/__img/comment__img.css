@@ -1,0 +1,11 @@
+.comment__img {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1023px) {
+  .comment__img {
+    display: block;
+    margin: auto;
+    margin-top: 47px;
+  }
+}

@@ -8,19 +8,13 @@
 
 @media screen and (max-width: 1279px) {
   .footer {
-    max-width: 89vw;
-  }
-}
-
-@media screen and (max-width: 1279px) {
-  .footer {
     max-width: 92vw;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    max-width: 95vw;
+    max-width: 90vw;
     padding: 64px 0 24px 0;
     flex-direction: column;
   }

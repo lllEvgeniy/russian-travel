@@ -1,0 +1,11 @@
+.comment__author {
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+  .comment__author {
+    order: 1;
+    text-align: center;
+    margin-top: 16px;
+  }
+}

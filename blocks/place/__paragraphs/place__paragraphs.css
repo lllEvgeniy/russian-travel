@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraphs {
-    max-width: 87vw;
+    max-width: 90vw;
     margin: auto;
   }
 }
