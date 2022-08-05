@@ -9,7 +9,7 @@ ___
 + ***БЭМ Nested***
 + ***Адаптивная верстка***
 ___
-##Ссылка на проект: **https://lllevgeniy.github.io/russian-travel/**
+## Ссылка на проект: **https://lllevgeniy.github.io/russian-travel/**
 
 
 
