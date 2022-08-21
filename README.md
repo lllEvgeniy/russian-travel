@@ -16,7 +16,7 @@ ___
 
 
 
-## Ссылка на проект: **https://lllevgeniy.github.io/russian-travel/**
+## Ссылка на проект: **https://russian-travel-brown.vercel.app/**
 
 
 
